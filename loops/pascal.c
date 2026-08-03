@@ -1,12 +1,14 @@
 #include <stdio.h>
 int main(){
-    int i, n, r, k, j,m, result;
+    int i, n, r, k, j,m, result,p;
     printf("Enter the size of table: ");
     scanf("%d", &n);
    
    
   for (m=0; m<=n; m++){
     int comp1=1;
+      for (k=n; k>=m;k--){
+              printf(" ");}
       for (i=0; i<=m; i++){
           if(i==0){
             comp1=1;
@@ -27,8 +29,10 @@ int main(){
         else{
         pro*=k;}
       }
+      
       result =comp1/(res*pro);
-      printf("%d", result);
+    
+      printf("%d ", result);
     }
     printf("\n");
   }
