@@ -61,6 +61,19 @@ void solve(int col) {
         return;
     }
 
+    if (col!=n){
+        printBoard();
+        return;
+    }
+    if (col==n-1){
+        printBoard();
+        return;
+    }
+    if (col == n-2){
+        printBoard();
+        return;
+    }
+    if (v)
     
     for (int row = 0; row < n; row++) {
 

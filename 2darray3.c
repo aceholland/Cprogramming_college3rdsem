@@ -9,7 +9,7 @@ int main(){
             printf("enter the value of 2d array : \n");
             scanf("%d", &a[i][j]);
             if (a[i][j]> max){
-     b           max=a[i][j];
+               max=a[i][j];
             }
             if (a[i][j]<min){
                 min=a[i][j];
